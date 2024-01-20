@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AppClima</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="titulo">
+            <h1>BUSCADOR DE CLIMA</h1>
+        </div>
+        <div>
+            <h2 class="titulo2" id="">Agregue ciudad y país</h2>
+            <h2 class="titulociudadnombre" id="city"><samp></samp></h2>
+            <h2 class="titulotemperatura" id="temperature"><Span></Span>°C:</h2>
+        </div>
+        <div class="buscador">
+            <form id="weatherForm">
+                <label for="cityInput"></label>
+                <input type="text" id="cityInput" name="city" placeholder="Escribe tu ciudad">
+                <label for="country"></label>
+                <select name="" id="country">
+                    <option disabled selected value="">Selecciona el País</option>
+                    <option value="AR">Argentina</option>
+                    <option value="CO">Colombia</option>
+                    <option value="CR">Costa Rica</option>
+                    <option value="ES">España</option>
+                    <option value="US">Estados Unidos</option>
+                    <option value="MX">México</option>
+                    <option value="PE">Perú</option>
+                </select>
+                <button class="buscarboton" type="submit">Buscar Clima</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
